@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+}
+.form-container {
+  border: 5px solid wheat;
+  padding: 100px;
+  /* margin: 20px 20px 150px 20px; */
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+  justify-content: center;
+}
+
+.form-values input {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  /* margin: 0px 0px 0px 10px; */
+}
+
+#sign {
+  text-align: center;
+  padding: 5px;
+  margin: 20px 0 0 100px;
+  border-radius: 5px;
+  width: 100px;
+  cursor: pointer;
+  background-color: black;
+  color: red;
+}
